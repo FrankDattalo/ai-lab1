@@ -1,16 +1,22 @@
-The files in this directory provide input/output routines for lab 1.
+Frank Dattalo
+2/4/2017
 
-There is javadoc documentation in the doc directory. Read the javadoc
-to understand how the four classes work. For the simple reflex agent,
-you'll want to use RoverSampleSensor; for the reflex agent with state
-you'll want to use MovingRoverSensors.
+There are two main methods within this project:
 
-You can test out the classes using:
+Part 1: sra.RoverSampleSensor.main
 
-java RoverSampleSensor -file <FILENAME_FROM_PART1>
+Part 2: mbra.MovingRoverSnesors.main
 
-java MovingRoverSensors -file <FILENAME_FROM_PART2>
+To run these from Eclipse go to the menu: Run > Run Configurations > Arguments > Program Arguments
+and then specify the arguments for the program.
 
-Look at the main function in the .java files to see how these classes
-are used.
+Part 1 - Simple Reflex Agent - was tested with the following files:
+hw1-data1.txt
+hw1-data6.txt
 
+Part 2 - Model Based Reflex Agent - was tested with the following files:
+hw1-data2.txt
+hw1-data3.txt
+hw1-data4.txt
+hw1-data5.txt
+hw1-data7.txt
